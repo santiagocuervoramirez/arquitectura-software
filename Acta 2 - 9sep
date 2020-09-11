@@ -1,0 +1,83 @@
+<Arquitectura de software>
+Acta de Reunión
+
+
+Proyecto:
+<Pokeapi>
+Lugar de la Reunión: Meet Google
+Fecha: <09/09/2020>
+Aprobada por: Isabel Andrea Mahecha Nieto
+	
+
+
+
+Lista de Convocados
+
+Nombre y Apellidos	Rol	ASISTE (S/N)
+Brayam Yunais Gomez Husbands	Por definir	S
+Juan David Díaz Calero	Por definir	S
+Marlen Amezquita Casafus	Por definir 	S
+Oswaldo Portilla Lopez	Por definir	S
+Santiago Cuervo Ramirez	Por definir	S
+Darío Leonardo Moreno prieto	Por definir	S
+
+
+
+Objetivos principales:
+
+•	Compartir información sobre la PokeAPI y así definir en grupo la problemática a trabajar.
+
+•	Asignar tareas para la primera entrega.
+
+
+
+
+
+
+Desarrollo de la reunión
+
+Se reúnen el equipo completo para discutir el tema principal a trabajar, definir la problemática que solicita la entrega donde la arquitectura orientada a servicios sea la solución adecuada. 
+En grupo se define desarrollar una PokeDesk cuyo objetivo principal es que los usuarios nuevos y que no tienen mucho conocimiento del juego, aprendan como iniciar en el juego y avanzar lo más rápido posible; guiar al usuario en los tres principales objetivos del juego que son capturar otras especies de Pokemon, entrenarlos y así poder enfrentar a otros usuarios.
+
+ACUERDOS Y TAREAS
+
+Acuerdo	Responsable	Fecha Prevista	Estado
+Elaborar diagrama que defina arquitectura orientada a servicios.	Todos	12/09/2020	Pendiente
+Creación de carpetas, vistas de interfaz en Angular.	Santiago Cuervo	12/09/2020	Pendiente
+Elaboración Acta reunión	Darío Moreno	12/09/2020	Pendiente
+creación del equipo en Azure, para asignación de tareas	Oswaldo Portilla	12/09/2020	Pendiente
+elaboración Glosario 	Juan David Diaz, Santiago Cuervo, Marlen Casafus y Brayam Gomez	13/09/2020	Pendiente
+Establecer objetivos y justificación	Darío Moreno	13/09/2020	Pendiente
+Requerimientos del proyecto	Todos	13/09/2020	Pendiente
+Establecer problemática del proyecto de acuerdo con el aporte del grupo en la reunión.	Brayam Gomez	13/09/2020	Pendiente
+Cronograma de entregas	Oswaldo Portilla	13/09/2020	Pendiente
+Establecer conclusiones y recomendaciones al final de esta primera entrega.	Juan David Diaz 	14/09/2020	Pendiente
+
+
+
+
+
+
+
+
+
+REGISTRO DE ACUERDOS Y PENDIENTES
+
+Acuerdo	Responsable	Fecha Prevista	Fecha Real	Terminado [S/N]
+Asistir a la siguiente conferencia del tutor para aclarar dudas en entrega 1.	Todos	10/09/2020	11/09/2020	N
+
+Adelantar las lecturas hasta escenario 4, despejar dudas sobre los diferentes patrones de arquitectura.	Todos	10/09/2020	13/09/2020	N
+
+
+
+
+
+
+PUNTOS PENDIENTES
+
+Acuerdo	Responsable	Fecha Prevista	Fecha Real	Terminado [S/N]
+Asistir a la siguiente conferencia del tutor para aclarar dudas en entrega 1.	Todos	10/09/2020	11/09/2020	N
+Adelantar las lecturas hasta escenario 4, despejar dudas sobre los diferentes patrones de arquitectura.	Todos	10/09/2020	13/09/2020	N
+Identificar los posibles roles para asignar a cada estudiante, aplazado desde reunión 1 no se considera relevante aún.	Todos	10/09/2020	20/09/2020	N
+próxima reunión sábado 12 de septiembre, hora por confirmar.	Todos	10/09/2020	12/09/2020	N
+
