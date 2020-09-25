@@ -1,6 +1,34 @@
 body, html
     height: 100%
 
-app-root 
-    display: block
-    height: 100%
+.background 
+    background-image: url("/assets/images/pokedex-base.png")
+    width: 840px
+    height: 639px
+    background-position: center
+    background-repeat: no-repeat
+    background-size: contain
+    margin: auto
+
+    .pokedex-screen
+        width: 251px
+        height: 166px
+        background-color: #000
+        position: relative
+        top: 213px
+        left: 104px
+        border-radius: 11px
+
+        app-root 
+            display: block
+            height: 100%
+
+            .menu 
+                padding: 10px
+
+                .menu-item 
+                    font-family: monospace
+                    cursor: pointer
+
+                    a
+                        color: #00ff13

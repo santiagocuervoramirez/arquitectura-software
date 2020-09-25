@@ -2,13 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  selector: 'app-pokemons',
+  templateUrl: './pokemons.component.html',
+  styleUrls: ['./pokemons.component.sass']
 })
-export class AppComponent implements OnInit {
-
-  title = 'pokedex';
+export class PokemonsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
@@ -18,4 +16,5 @@ export class AppComponent implements OnInit {
     this.route.queryParams.subscribe(params => {
     });
   }
+
 }
