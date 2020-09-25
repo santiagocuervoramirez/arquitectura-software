@@ -1,5 +1,6 @@
 <div class="menu">
-    <div class="menu-item">
-        <a routerLink="/pokemons">ESTOY EN POKEMONS</a>
+
+    <div class="menu-item" *ngFor="let pokemon of pokemonList">
+        <a routerLink="/pokemons">{{pokemon.name}}</a>
     </div>
   </div>

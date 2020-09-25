@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-pokemons',
@@ -8,12 +9,21 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 })
 export class PokemonsComponent implements OnInit {
 
-  constructor(
-    private route: ActivatedRoute,
-  ) {}
+  constructor(private http: HttpClient) {
+
+  }
+
+  pokemonList = [];
+  readonly ROOT_URL = 'https://pokeapi.co/api/v2/pokemon/';
+  getPokemons() {
+    return this.http.get(this.ROOT_URL);
+  }
+
 
   ngOnInit() {
-    this.route.queryParams.subscribe(params => {
+    this.getPokemons().subscribe((data: any[]) => {
+      console.log(data['results']);
+      this.pokemonList = data['results'];
     });
   }
 
